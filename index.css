@@ -38,6 +38,7 @@ header{
     font-size: 16px;
     background-color: #cde1fd;
     cursor: pointer;
+    outline: none;
 }
 .right_part{
     display: flex;
