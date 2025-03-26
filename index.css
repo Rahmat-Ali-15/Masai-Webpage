@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Open Sans, Inter, sans-serif;
+    font-family: "Mona Sans", Open Sans, Inter, sans-serif;
 }
 /* header part start from here. */
 header{
@@ -12,8 +12,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 0;
+    /* position: fixed;
+    top: 0; */
     box-shadow: 2px 0 2px 2px #f7f7f7;
     background-color: #fff;
 }
@@ -71,8 +71,20 @@ button:hover{
 
 .first_part_container{
     width: 100%;
+    max-height: 100%;
+    padding: 0 170px;
     border: 1px solid red;
 }
-
+.first_left_part{
+    width: 50%;
+    border: 1px solid black;
+}
+.first_left_part>h1{
+    color: #1d1918;
+    font-size: 48px;
+}
+.first_left_part>h1>span{
+    color: #ba3d42;
+}
 
 /* main part end here. */
