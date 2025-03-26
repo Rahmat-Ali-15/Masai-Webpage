@@ -65,3 +65,14 @@ button:hover{
     background-color: #d8032d;
 }
 /* header part end here. */
+
+
+/* main part start from here. */
+
+.first_part_container{
+    width: 100%;
+    border: 1px solid red;
+}
+
+
+/* main part end here. */
