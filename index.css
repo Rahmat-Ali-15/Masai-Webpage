@@ -294,11 +294,19 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+.software_btn_arrow:hover{
+  background-color: rgb(249, 219, 224);
+  padding-right: 10px;
+  border-radius: 10px;
+}
 .software_btn_arrow>button{
   background-color: #ebfaf7;
   color: #c31f39;
   font-size: 14px;
   font-weight: 600;
+}
+.software_btn_arrow:hover>button{
+  background-color: rgb(249, 219, 224);
 }
 .software_btn_arrow>img{
   height: 17px;
@@ -366,7 +374,6 @@ button:hover {
 .data_science:hover>h1>span{
   display: none;
 }
-
 .data_science .ul_btn_container{
   display: none;
 }
@@ -406,11 +413,19 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+.d_science_btn_arrow:hover{
+  background-color: rgb(249, 219, 224);
+  padding-right: 10px;
+  border-radius: 10px;
+}
 .d_science_btn_arrow>button{
   background-color: #d2f0fa;
   color: #c31f39;
   font-size: 14px;
   font-weight: 600;
+}
+.d_science_btn_arrow:hover>button{
+  background-color: rgb(249, 219, 224);
 }
 .d_science_btn_arrow>img{
   height: 17px;
@@ -517,11 +532,19 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+.digital_btn_arrow:hover{
+  background-color: rgb(249, 219, 224);
+  padding-right: 10px;
+  border-radius: 10px;
+}
 .digital_btn_arrow>button{
   background-color: #fdeee7;
   color: #c31f39;
   font-size: 14px;
   font-weight: 600;
+}
+.digital_btn_arrow:hover>button{
+  background-color: rgb(249, 219, 224);
 }
 .digital_btn_arrow>img{
   height: 17px;
@@ -629,11 +652,19 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+.business_btn_arrow:hover{
+  background-color: rgb(249, 219, 224);
+  padding-right: 10px;
+  border-radius: 10px;
+}
 .business_btn_arrow>button{
   background-color: #fef1de;
   color: #c31f39;
   font-size: 14px;
   font-weight: 600;
+}
+.business_btn_arrow:hover>button{
+  background-color: rgb(249, 219, 224);
 }
 .business_btn_arrow>img{
   height: 17px;
