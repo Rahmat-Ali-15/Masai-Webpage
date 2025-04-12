@@ -29,21 +29,102 @@ header {
 .logo > img {
   height: 40px;
 }
-.custom_select {
-  border: none;
-  padding: 8px 25px 8px 15px;
-  border-radius: 8px;
-  background-color: #d6e2fb;
-  cursor: pointer;
-}
-.course {
-  width: 100px;
-  border: none;
-  font-size: 16px;
-  background-color: #d6e2fb;
-  cursor: pointer;
+.drop_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
   outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #d6e2fb;
+  cursor: pointer;
 }
+.drop_btn>button{
+  background-color: #d6e2fb;
+  color: black;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.drop_btn>img{
+  height: 12px;
+  transform: rotate(90deg);
+}
+
+/* dropdown part start from here. */
+
+.drop_content_container{
+  position: relative;
+}
+.drop_menu_container{
+  display: none;
+}
+.drop_content_container:focus-within .drop_menu_container{
+  position: absolute;
+  left: -55px;
+  margin-top: 18px;
+  width: 1260px;
+  height: 400px;
+  display: flex;
+  padding: 15px 30px 30px 90px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #f3f1f2;
+  border: none;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.drop_left_menu{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.drop_right_menu{
+  width: 75%;
+}
+.drop_left{
+  display: flex;
+  gap: 10px;
+}
+.drop_left>h1{
+  font-size: 14px;
+  font-weight: 600;
+  
+}
+.drop_software:hover,.drop_ai_ml:hover,.drop_data_science:hover,.drop_electronics:hover,.drop_marketing:hover,.drop_management:hover .drop_left>h1{
+  
+}
+.drop_right>img{
+  height: 10px;
+}
+.drop_software,.drop_ai_ml,.drop_data_science,.drop_electronics,.drop_marketing,.drop_management{
+  width: 95%;
+  padding: 10px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.drop_software:hover,.drop_ai_ml:hover,.drop_data_science:hover,.drop_electronics:hover,.drop_marketing:hover,.drop_management:hover{
+  background-color: #d5d5d591;
+}
+.drop_software:focus-within,.drop_ai_ml:focus-within,.drop_data_science:focus-within,.drop_electronics:focus-within,.drop_marketing:focus-within,.drop_management:focus-within{
+  color: rgb(237, 3, 49);
+  background-color: #ffeff5;
+}
+
+
+/* dropdown part end here. */
+
 .right_part {
   display: flex;
   justify-content: end;
@@ -57,7 +138,7 @@ header {
 .right_part > a:hover {
   color: rgb(223, 17, 17);
 }
-button {
+.btn>button {
   padding: 13px;
   border: none;
   border-radius: 10px;
@@ -65,7 +146,7 @@ button {
   background-color: #ed0232;
   cursor: pointer;
 }
-button:hover {
+.btn>button:hover {
   background-color: #d8032d;
 }
 /* header part end here. */
@@ -124,7 +205,10 @@ button:hover {
   margin-top: 30px;
   font-weight: 500;
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-color: #ed0232;
 }
 .first_right_part > img {
   width: 450px;
@@ -292,7 +376,10 @@ button:hover {
   padding: 15px 20px;
   font-size: 14px;
   font-weight: 600;
-  background-color: #ec0331;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: #ed0232;
 }
 .software_btn_arrow {
   cursor: pointer;
@@ -311,6 +398,8 @@ button:hover {
   color: #c31f39;
   font-size: 14px;
   font-weight: 600;
+  border: none;
+  padding-left: 15px;
 }
 .software_btn_arrow:hover > button {
   background-color: rgb(249, 219, 224);
@@ -418,6 +507,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 .d_science_btn_arrow:hover {
   background-color: rgb(249, 219, 224);
@@ -429,6 +519,8 @@ button:hover {
   color: #c31f39;
   font-size: 14px;
   font-weight: 600;
+  border: none;
+  padding-left: 15px;
 }
 .d_science_btn_arrow:hover > button {
   background-color: rgb(249, 219, 224);
@@ -537,6 +629,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 .digital_btn_arrow:hover {
   background-color: rgb(249, 219, 224);
@@ -548,6 +641,8 @@ button:hover {
   color: #c31f39;
   font-size: 14px;
   font-weight: 600;
+  border: none;
+  padding-left: 15px;
 }
 .digital_btn_arrow:hover > button {
   background-color: rgb(249, 219, 224);
@@ -656,6 +751,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 .business_btn_arrow:hover {
   background-color: rgb(249, 219, 224);
@@ -667,6 +763,8 @@ button:hover {
   color: #c31f39;
   font-size: 14px;
   font-weight: 600;
+  border: none;
+  padding-left: 15px;
 }
 .business_btn_arrow:hover > button {
   background-color: rgb(249, 219, 224);
