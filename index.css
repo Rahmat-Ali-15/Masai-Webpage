@@ -98,9 +98,9 @@ header {
   font-weight: 600;
   
 }
-.drop_software:hover,.drop_ai_ml:hover,.drop_data_science:hover,.drop_electronics:hover,.drop_marketing:hover,.drop_management:hover .drop_left>h1{
+/* .drop_software:hover,.drop_ai_ml:hover,.drop_data_science:hover,.drop_electronics:hover,.drop_marketing:hover,.drop_management:hover .drop_left>h1{
   
-}
+} */
 .drop_right>img{
   height: 10px;
 }
@@ -1292,6 +1292,123 @@ header {
   border-radius: 15px; 
 }
 
-
 /* achievement part end here. */
+
+/* Chalenge part start from here. */
+
+.chalenge_section{
+  width: 100%;
+  height: 900px;
+  background-color: #eff3ff;
+  padding: 0 50px 60px 50px;
+}
+.chalenge_content_container{
+  width: 100%;
+  height: 100%;
+  padding: 300px 70px 100px 70px;
+  background-image: url("Utilities/chalenge_bg_image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.chlenge_upper>h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(10, 1, 3);
+}
+.chlenge_lower{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 10px;
+}
+.chalenge_lo_left{
+  width: 50%;
+  height: 100%;
+}
+.chalenge_head_btn>h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #e8022c;
+}
+.chalenge_head_btn{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.chalenge_head_btn>button{
+  width: 170px;
+  padding: 12px 0px;
+  color: red;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid red;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.chalenge_head_btn>button:hover{
+  color: #fff;
+  background-color: red;
+}
+.chalenge_lo_left_img{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  gap: 10px;
+}
+.chalenge_img1{
+  height: 40%;
+  width: 35%;
+}
+.chalenge_img2{
+  height: 70%;
+  width: 60%;
+}
+.chalenge_lo_right{
+  width: 50%;
+}
+.chalenge_lo_right_imgs{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+}
+.chalenge_img_3_4{
+  width: 100%;
+  height: 55%;
+  display: flex;
+  align-items: end;
+  gap: 15px;
+}
+.chalenge_img3{
+  width: 65%;
+  height: 75%;
+}
+.chalenge_img4{
+  width: 35%;
+  height: 75%;
+}
+.chalenge_img_5_6{
+  width: 100%;
+  height: 45%;
+  display: flex;
+  align-items: end;
+  gap: 15px;
+}
+.chalenge_img5{
+  width: 35%;
+  height: 95%;
+}
+.chalenge_img6{
+  width: 65%;
+  height: 95%;
+}
+
+/* Chalenge part end here. */
 /* ==> main part end here. ==>*/
