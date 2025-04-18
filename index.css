@@ -1609,3 +1609,17 @@ header {
 }
 
 /* footer part end here. ==> */
+
+
+
+/* Media query / Responsivness part start from here. */
+
+
+/* Media query from 0 to 480px start from here. */
+
+@media (min-width: 0) and (max-width: 480px){
+
+}
+
+
+/* Media query from 0 to 480px end here. */
