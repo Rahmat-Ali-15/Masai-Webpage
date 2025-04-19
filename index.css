@@ -292,7 +292,6 @@ header {
 
 /* Software part start from here. */
 .software_development {
-  grid-area: software_development;
   width: 25%;
   max-height: 450px;
   display: flex;
@@ -416,7 +415,6 @@ header {
 /* Data Science part start form here. */
 
 .data_science {
-  grid-area: data_science;
   width: 25%;
   max-height: 450px;
   display: flex;
@@ -1618,6 +1616,200 @@ header {
 /* Media query from 0 to 480px start from here. */
 
 @media (min-width: 0) and (max-width: 480px){
+header{
+  height: 60px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo_course{
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+.right_part{
+  display: none;
+}
+.first_part_container{
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.first_left_part{
+  max-width: 100%;
+  padding: 0;
+}
+.first_left_part>h1,h3{
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.2;
+}
+.first_left_part>h3{
+  padding: 0 20px;
+}
+.first_left_part>ul{
+  padding: 0 50px;
+}
+.first_left_part > ul > li > p {
+  font-size: 16px;
+}
+.first_left_part>button{
+  display: none;
+}
+.first_right_part{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.first_right_part>img{
+  padding: 0;
+  border-bottom-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+}
+.course_container{
+  padding: 0;
+}
+.course_container > h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.course_content{
+  padding: 20px;
+  flex-direction: column;
+  width: 100%;
+  height: 650px;
+}
+.software_development,
+.data_science,
+.digital_marketing,
+.business_analytics{
+  width: 100%;
+  max-height: 300px;
+  flex-direction: row;
+  gap: 100px;
+  overflow: visible;
+}
+.software_development>h1,
+.data_science>h1,
+.digital_marketing>h1,
+.business_analytics>h1{
+  width: 100%;
+  justify-content: flex-right;
+}
+.software_development:hover .ul_btn_container {
+  display: none;
+}
+.data_science:hover .ul_btn_container {
+  display: none;
+}
+.digital_marketing:hover .ul_btn_container {
+  display: none;
+}
+.digital_marketing:hover .ul_btn_container {
+  display: none;
+}
+.win_up_heading{
+  text-align: center;
+  font-size: 27px;
+  padding: 20px;
+}
+.win_card_container{
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "win_card1" 
+                       "win_card2" 
+                       "win_card3";
+  padding: 0 20px;
+  gap: 10px;
+}
+.career_container{
+  padding: 40px 20px;
+}
+.career_up_heading>h1{
+  font-size: 32px;
+}
+.company_container{
+  flex-direction: column;
+}
+.lpa_detail{
+  padding: 0;
+  width: 100%;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas:
+    "placed_students"
+    "average_ctc"
+    "highest_ctc"
+    "salary_growth";
+  row-gap: 20px;
+}
+.num_symbol > h1,
+.average_ctc>h1,
+.highest_ctc>h1,
+.salary_growth>h1{
+  font-size: 48px;
+}
+.num_symbol > h2 {
+  font-size: 48px;
+}
+.salary_growth>h1{
+  text-align: center;
+}
+.company_logo_container{
+  width: 100%;
+  gap: 30px;
+}
+.company_logo_container>h1{
+  font-size: 24px;
+  margin-top: 40px;
+}
+.company_img_container{
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.up_img{
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 20px 0 20px;
+  flex-wrap: wrap;
+}
+.up_img>img{
+  height: 30px;
+}
+.lower_img_container{
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.stories_section_container{
+  height: 1950px;
+  border: 1px solid red;
+}
+.up_story{
+  padding: 0 20px;
+  flex-direction: column;
+  border: 1px solid red;
+}
+.up_story_left{
+  width: 100%;
+}
+.up_story_right{
+  width: 100%;
+}
+.story_lower_container{
+  border: 1px solid red;
+}
+.story_card_container{
+  flex-direction: column;
+}
+
+
 
 }
 
